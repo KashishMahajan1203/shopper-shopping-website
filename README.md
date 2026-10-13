@@ -5,7 +5,6 @@ A complete online fashion store built with **MongoDB, Express, React and Node.js
 ![Home page](docs/screenshots/home.png)
 
 ## ✨ Features
-
 **Shopping**
 - Product catalogue stored in MongoDB and served by a REST API
 - Search, price and size filters, sorting and pagination (filters are kept in the URL so results can be shared)
