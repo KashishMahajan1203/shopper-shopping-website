@@ -1,0 +1,22 @@
+.shop-category {
+  padding-top: 28px;
+  padding-bottom: 64px;
+}
+
+.shopcategory-banner {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.shopcategory-heading {
+  margin: 32px 0 18px;
+}
+
+.shopcategory-heading h1 {
+  font-size: 26px;
+}
+
+.shopcategory-heading p {
+  margin-top: 4px;
+  color: var(--text-muted);
+}

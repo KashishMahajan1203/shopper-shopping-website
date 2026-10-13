@@ -1,0 +1,43 @@
+.address-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.address-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.address-form .wide {
+  grid-column: 1 / -1;
+}
+
+.address-form .address-form-default {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.address-form-default input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--primary);
+}
+
+.address-form-actions {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 520px) {
+  .address-form {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,99 @@
+.loginsignup {
+  display: flex;
+  justify-content: center;
+  padding: 64px 16px;
+  background: var(--bg-soft);
+  min-height: calc(100vh - 68px);
+}
+
+.loginsignup-container {
+  width: 100%;
+  max-width: 420px;
+  height: fit-content;
+  padding: 36px 32px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.loginsignup-container h1 {
+  font-size: 24px;
+}
+
+.loginsignup-subtitle {
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.loginsignup-fields label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.loginsignup-fields .btn {
+  margin-top: 8px;
+  height: 46px;
+}
+
+.loginsignup-fields .loginsignup-agree {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.loginsignup-agree input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--primary);
+}
+
+.loginsignup-switch {
+  margin-top: 20px;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.loginsignup-switch a {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.loginsignup-switch a:hover {
+  text-decoration: underline;
+}
+
+.loginsignup-forgot {
+  align-self: flex-end;
+  margin-top: -6px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.loginsignup-forgot:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.loginsignup-gap {
+  margin-top: 24px;
+}
+
+.loginsignup-subtitle strong {
+  color: var(--text);
+}
